@@ -65,6 +65,24 @@
       .pink-header{
         background-color:rgb(255, 199, 207);
       }
+
+      @media(max-width: 640px){
+        h2{
+          color:rgb(168, 208, 243);
+        }
+      }
+
+      .welcome-msg{
+        width: 100%;
+        position: absolute;
+        top: 70%;
+        transform: translateY(-50%);
+        text-align: center;
+        color:rgb(203, 93, 109);
+        margin-top: 10px;
+        background-color: aliceblue;
+        font-family: sans-serif;
+      }
     </style>
 
     <h2>
@@ -80,6 +98,11 @@
                 <li><a href="./hobbies/">Hobbies</a></li>
             </ul>
           </nav>
+        </div>
+
+        <div class="welcome-msg">
+          <h1>thanks for being here</h1>
+          <span>feel free to explore the links above</span>
         </div>
   </body>
 </html>
