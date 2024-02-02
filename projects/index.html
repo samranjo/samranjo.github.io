@@ -75,13 +75,31 @@
       .welcome-msg{
         width: 100%;
         position: absolute;
-        top: 70%;
+        top: 50%;
         transform: translateY(-50%);
         text-align: center;
         color:rgb(203, 93, 109);
         margin-top: 10px;
-        background-color: aliceblue;
+        background-color: rgb(155, 202, 244);
         font-family: sans-serif;
+      }
+      .project-links{
+        list-style:none;
+      }
+
+      .project-links li{
+        display: inline-block;
+        padding: 0px 20px;
+      }
+
+      .project-links li a{
+        transition: all 0.3s ease 0s;
+      }
+
+      .project-links li a:hover{
+        transition: all 0.3s ease 0s;
+        background-color: lightyellow;
+      
       }
     </style>
 
@@ -101,8 +119,12 @@
         </div>
 
         <div class="welcome-msg">
-          <h1>*insert projects here???*</h1>
-          <span>idk what else</span>
+          <span>Projects, etc.</span>
+          <ul class="project-links">
+            <li><a href="https://github.khoury.northeastern.edu/CS-5001-SEA-Fall2022/student-SamanthaRanjo/tree/master/hw12/othello_final">othello game in python</a></li>
+            <li><a href="https://github.khoury.northeastern.edu/CS5004RaoSpring2023/sranjo_Poker">poker game in java</a></li>
+            <li> ATM in java </li>
+          </ul>
         </div>
   </body>
 </html>
