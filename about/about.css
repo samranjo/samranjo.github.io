@@ -1,0 +1,79 @@
+      li, a{
+        font-family: sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: whitesmoke;
+        text-decoration: none;
+      }
+
+      .logo{
+        cursor: pointer;
+        width: 100px;
+        height: 100px;
+      }
+
+      .nav_links{
+        list-style:none;
+      }
+
+      .nav_links li{
+        display: inline-block;
+        padding: 0px 20px;
+      }
+
+      .nav_links li a{
+        transition: all 0.3s ease 0s;
+      }
+
+      .nav_links li a:hover{
+        transition: all 0.3s ease 0s;
+        background-color: lightyellow;
+        
+      }
+
+      h2{
+        color: rgb(203, 93, 109);
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-family: sans-serif;
+        font-weight: bold;
+      }
+
+      .navbar{
+        height: 100px;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        position: fixed;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 10%;
+        margin: 10px 0px;
+        box-sizing: border-box;
+      }
+            
+      .pink-header{
+        background-color:rgb(255, 199, 207);
+      }
+
+      .intro-paragraph {
+        margin-top: 150px;
+      }
+
+      #aboutme-para{
+        /* background-color: aliceblue;
+        border: 1px solid rgb(88, 196, 218); */
+        padding: 10px;
+        font-family: sans-serif;
+      }
+
+      .bts-img{
+        float:left;
+        margin: 5px 5px 5px 5px;
+        width: 100%;
+        height: auto;
+        /* display: flex; */
+        /* position:relative;
+        justify-content: space-between; */
+      }
